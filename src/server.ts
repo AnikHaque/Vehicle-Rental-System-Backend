@@ -10,6 +10,11 @@ const app = express()
 initDB()
 
 app.use(express.json())
+
+app.get('/', (req, res) => {
+    res.send("Vehicle Rental System Backend is running");
+});
+
 app.use(authRouter)
 app.use(vehiclesRouter)
 app.use(usersRouter)
