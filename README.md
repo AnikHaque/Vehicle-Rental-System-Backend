@@ -1,6 +1,6 @@
 # Vehicle Rental System
 
-**Live Deployment:** https://vehicle-rental-system-backend-ruddy.vercel.app/
+**Live Deployment:** https://vehicle-rental-system-backend-ruddy.vercel.app
 
 ##  Project Overview
 
@@ -24,7 +24,7 @@ A backend API for a vehicle rental management system that handles:
 - JWT-based signin
 - Password hashing with bcrypt
 - Role based autorization
-    - `Admin` -> Full access
+    - `Admin` -> Full access 
     - `Customer` -> Can register, browse vehicles and can manage their own bookings
 
 ###  Vehicle Management
