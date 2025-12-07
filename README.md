@@ -1,8 +1,8 @@
 # Vehicle Rental System
 
-**Live Deployment:** https://apollo-level2-web-dev-b6-a2.vercel.app/api/v1/
+**Live Deployment:** https://vehicle-rental-system-backend-ruddy.vercel.app/
 
-## 🎯 Project Overview
+##  Project Overview
 
 A backend API for a vehicle rental management system that handles:
 - **Vehicles** - Manage vehicle inventory with availability tracking
@@ -10,7 +10,7 @@ A backend API for a vehicle rental management system that handles:
 - **Bookings** - Handle vehicle rentals, returns and cost calculation
 - **Authentication** - Secure role-based access control (Admin and Customer roles)
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Node.js** + **TypeScript**
 - **Express.js** (web framework)
@@ -18,32 +18,32 @@ A backend API for a vehicle rental management system that handles:
 - **bcrypt** (password hashing)
 - **jsonwebtoken** (JWT authentication)
 
-## 🎯 Features
+##  Features
 
-### 🔐 Authentication & Roles
+###  Authentication & Roles
 - JWT-based signin
 - Password hashing with bcrypt
 - Role based autorization
     - `Admin` -> Full access
     - `Customer` -> Can register, browse vehicles and can manage their own bookings
 
-### 🚙 Vehicle Management
+###  Vehicle Management
 - `Add`, `Update`, `Delete` vehicles (Admin only)
 - Public endpoints for browsing single or all vehicles
 
-### 👤 User Management
+###  User Management
 - `Browse`, `Update`, `Delete` users (Admin only)
 - Customers can manage their own profile
 - Safe deletaion (Users cannot be deleted if they have active bookings)
 
-### 🗓️ Booking Management
+###  Booking Management
 - Create bookings with vehicle availability validation
 - Auto Update vehicle status (booked/available)
 - Browse all bookings (Admin only)
 - Customers can brose their own bookings
 - Cancel or Return bookings based on role and rules
 
-## 🛠️ Setup & Usage Instructions
+##  Setup & Usage Instructions
 
 ### 1. Install dependencies
 ```

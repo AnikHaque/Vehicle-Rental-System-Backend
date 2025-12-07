@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt'
 import { pool } from "../../config/db";
 import jwt from 'jsonwebtoken'
-import { JWT_SECRET } from '../../config';
+import { JWT_SECRET } from '../../config/index';
 
 export const createUser = async (payload: Record<string, unknown>) => {
     const { name, email, password, phone, role } = payload
